@@ -57,10 +57,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+        作者 <strong>{author.name}</strong> {author.summary}
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        <a href={`http://weibo.cn/${social.twitter}`}>
+          您可以在微博上关注他
         </a>
       </p>
     </div>
