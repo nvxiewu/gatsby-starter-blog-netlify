@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       weibo: `shaoye1981`,
+      twitter: `@bailongma9`
     },
   },
   plugins: [
