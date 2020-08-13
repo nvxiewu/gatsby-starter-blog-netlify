@@ -28,7 +28,7 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            weibo
           }
         }
       }
@@ -59,7 +59,7 @@ const Bio = () => {
       <p>
         作者 <strong>{author.name}</strong> {author.summary}
         {` `}
-        <a href={`http://weibo.cn/${social.twitter}`}>
+        <a href={`http://weibo.cn/${social.weibo}`}>
           您可以在微博上关注他
         </a>
       </p>
